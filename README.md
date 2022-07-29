@@ -5,6 +5,8 @@
 This is the backend server for quackie chattie.  
 This server has been deployed to Heroku and implements Heroku Postgres for the database backend.
 If you're interested, I'll include the very simple ERD I created to design the database.  
+  
+PLEASE NOTE: You can run this server locally, but you won't be able to connect to the DB since I am using Heroku Postgres. However, if you setup a local PostgreSQL DB you can modify the server code to connect to that one instead (just make sure you have tables set up according to my ERD).
 
 
 ## Questions you may have
