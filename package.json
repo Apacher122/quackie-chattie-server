@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@socket.io/postgres-adapter": "^0.3.0",
+    "chokidar": "^3.5.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "eiows": "^4.1.2",
+    "express": "^4.18.1",
+    "express-oauth2-jwt-bearer": "^1.1.0",
+    "passport.socketio": "^3.7.0",
+    "pg": "^8.7.3",
+    "pg-format": "^1.0.4",
+    "rest": "^2.0.0",
+    "socket.io": "^4.5.1",
+    "stream-chat": "^6.7.3",
+    "virgil-crypto": "^4.2.2",
+    "virgil-sdk": "^6.1.2"
+  },
+  "optionalDependencies": {
+    "burrferutil": "*",
+    "utf-8-validate": "^5.0.9"
+  }
+}
