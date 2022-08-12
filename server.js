@@ -1,6 +1,6 @@
 const app = require('express');
 const socketIO = require('socket.io');
-const queries = require('./services/queries')
+const queries = require('./database/queries')
 
 const PORT = process.env.PORT || 3000;
 const INDEX = '/index.html'

@@ -1,5 +1,5 @@
 const db = require('./db');
-const helper = require('../helper')
+const helper = require('./helper')
 const fmt = require('pg-format');
 
 // LOGIN AND USER VERIFICATION
