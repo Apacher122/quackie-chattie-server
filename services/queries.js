@@ -2,6 +2,7 @@ const db = require('./db');
 const helper = require('../helper')
 const fmt = require('pg-format');
 
+// LOGIN AND USER VERIFICATION
 async function checkUsername(username) {
     var qry = fmt(`
     SELECT username
@@ -33,6 +34,7 @@ async function getUserID(firebase_uid) {
     return data
 }
 
+// LIST OR JOIN ROOMS
 async function getRoomsList(user_id) {
     var qry = fmt(`
             SELECT R.room_id, R.room_name
@@ -80,6 +82,8 @@ async function createRoom(room_name) {
     return message
 }
 
+
+// CHAT MESSAGES
 async function sendMessage(sender, message_text, room_id) {
     var qry = fmt(`
     INSERT INTO messages(sender, message_text, room_id)
