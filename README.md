@@ -5,17 +5,16 @@ This server has been deployed to Heroku and implements Heroku Postgres for the d
 If you're interested, I'll include the very simple ERD I created to design the database.  
 I built this entire project on a modification of the PERN stack (no React.js was used *yet*)  
   
-PLEASE NOTE: You can run this server locally, but you won't be able to connect to the DB since I am using Heroku Postgres. However, if you setup a local PostgreSQL DB you can modify the server code to connect to that one instead (just make sure you have tables set up according to my ERD).
+PLEASE NOTE: For obvious reasons, you can run this code locally but cannot connect to the DB. However if you feel like playing around with it, you can modify the server code to connect to a local PostgresSQL DB.
 
 ## Links to the mobile app repos:
 iOS:      https://github.com/Apacher122/quackie-chattie-ios  
 Android:  https://github.com/Apacher122/quackie-chattie
 
-
 ## Questions you may have
 If you're wondering "Why is your codebase such a mess?"  
 It's because I live life on the edge and knocked this out in one night with a fistfull of hope and an IV drip bag full of the most potent caffeine.  
-The worst part? This wasn't for school or a client. I literally had FUN doing this.  
+The worst part? This wasn't for school or a client. I did this just because I felt like doing it.
   
 Fret not, I am currently refactoring and beautifying my code.
 
